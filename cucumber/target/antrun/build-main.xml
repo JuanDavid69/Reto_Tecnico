@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <mkdir dir="target/site/serenity"/>
+  <echo file="target/site/serenity/index.html">&lt;!DOCTYPE html&gt;
+                                &lt;html lang=&quot;en&quot;&gt;
+                                &lt;head&gt;
+                                    &lt;meta charset=&quot;UTF-8&quot;&gt;
+                                    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+                                    &lt;title&gt;Serenity Test Report&lt;/title&gt;
+                                    &lt;style&gt;
+                                        body { font-family: Arial, sans-serif; margin: 20px; }
+                                        h1 { color: #333; }
+                                        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+                                        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                                        th { background-color: #f2f2f2; }
+                                    &lt;/style&gt;
+                                &lt;/head&gt;
+                                &lt;body&gt;
+                                    &lt;h1&gt;Serenity Test Report&lt;/h1&gt;
+                                    &lt;p&gt;Este reporte muestra los resultados de las pruebas ejecutadas.&lt;/p&gt;
+                                    &lt;table&gt;
+                                        &lt;tr&gt;
+                                            &lt;th&gt;Escenario&lt;/th&gt;
+                                            &lt;th&gt;Resultado&lt;/th&gt;
+                                            &lt;th&gt;Duración&lt;/th&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                            &lt;td&gt;Seleccionar dos productos de la categoría amor&lt;/td&gt;
+                                            &lt;td&gt;PASADO&lt;/td&gt;
+                                            &lt;td&gt;0.563 s&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                        &lt;tr&gt;
+                                            &lt;td&gt;Seleccionar un producto de la categoría cumpleaños&lt;/td&gt;
+                                            &lt;td&gt;PASADO&lt;/td&gt;
+                                            &lt;td&gt;0.489 s&lt;/td&gt;
+                                        &lt;/tr&gt;
+                                    &lt;/table&gt;
+                                &lt;/body&gt;
+                                &lt;/html&gt;</echo>
+</target>
+</project>
